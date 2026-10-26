@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>野獣先輩 非公式アーカイブ — YAJUU SENPAI ARCHIVE</title>
+  <meta name="description" content="野獣先輩を題材にしたインターネットミームの非公式パロディアーカイブ。名言、年表、用語集、掲示板。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=JetBrains+Mono:wght@400;600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <div class="topbar">
+    <div class="topbar__track">
+      <span>NOTICE: 本サイトは非公式のパロディアーカイブです</span>
+      <span>／／</span>
+      <span>実在の人物・団体とは関係ありません</span>
+      <span>／／</span>
+      <span>24歳・学生・迫真</span>
+      <span>／／</span>
+      <span>NOTICE: 本サイトは非公式のパロディアーカイブです</span>
+      <span>／／</span>
+      <span>実在の人物・団体とは関係ありません</span>
+      <span>／／</span>
+      <span>24歳・学生・迫真</span>
+      <span>／／</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="logo" href="#top" aria-label="野獣先輩 非公式アーカイブ ホーム">
+      <span class="logo__mark">獣</span>
+      <span class="logo__text">
+        <span class="logo__en">YAJUU ARCHIVE</span>
+        <span class="logo__jp">非公式ミーム資料館</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="メインナビゲーション">
+      <a href="#profile">プロフィール</a>
+      <a href="#quotes">名言集</a>
+      <a href="#history">年表</a>
+      <a href="#glossary">用語集</a>
+      <a href="#bbs">掲示板</a>
+    </nav>
+
+    <div class="header__right">
+      <span class="status-pill"><i></i> 24歳 / 学生</span>
+      <button class="burger" id="burger" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="hero__floaters" aria-hidden="true">
+        <span style="--x: 6%; --y: 18%; --d: 0s;">114514</span>
+        <span style="--x: 82%; --y: 12%; --d: -3s;">810</span>
+        <span style="--x: 72%; --y: 72%; --d: -6s;">114514</span>
+        <span style="--x: 14%; --y: 78%; --d: -2s;">24</span>
+        <span style="--x: 90%; --y: 45%; --d: -8s;">迫真</span>
+        <span style="--x: 48%; --y: 88%; --d: -4s;">YAJUU</span>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">UNOFFICIAL MEME ARCHIVE / SINCE 2001</p>
+          <h1 class="hero__title glitch reveal" data-text="野獣先輩">野獣先輩</h1>
+          <p class="hero__sub reveal">24歳、学生です。</p>
+          <p class="hero__lead reveal">
+            2001年、ある映像のワンシーンから生まれたインターネットミーム。
+            名言、空耳、AA、MAD——語り継がれる記録を、静かにアーカイブする非公式サイトです。
+          </p>
+          <div class="hero__actions reveal">
+            <a class="btn btn--lime" href="#quotes">名言を見る</a>
+            <a class="btn btn--ghost" href="#history">年表をたどる</a>
+          </div>
+          <p class="hero__fine reveal">※ 本サイトはパロディです。特定の個人・団体とは関係ありません。</p>
+        </div>
+
+        <div class="hero__panel reveal">
+          <div class="terminal">
+            <div class="terminal__bar">
+              <i></i><i></i><i></i>
+              <span>senpai.log</span>
+            </div>
+            <pre class="terminal__body" id="terminalText" aria-label="ターミナル風プロフィール"></pre>
+            <div class="terminal__meta">
+              <span>STATUS: <b>ONLINE</b></span>
+              <span>AGE: 24</span>
+              <span>JOB: STUDENT</span>
+            </div>
+          </div>
+
+          <div class="counter">
+            <div class="counter__label">TOTAL VISITORS</div>
+            <div class="counter__digits" id="visitorCount">000000</div>
+            <div class="counter__note" id="visitorNote">あなたは 114,515 人目の訪問者です</div>
+            <div class="counter__bar" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>いいよ、来いよ</span><span>／／</span>
+        <span>やりますねぇ</span><span>／／</span>
+        <span>24歳、学生です</span><span>／／</span>
+        <span>すいません、許してください</span><span>／／</span>
+        <span>何でもしますから</span><span>／／</span>
+        <span>そうだよ（便乗）</span><span>／／</span>
+        <span>いいよ、来いよ</span><span>／／</span>
+        <span>やりますねぇ</span><span>／／</span>
+        <span>24歳、学生です</span><span>／／</span>
+        <span>すいません、許してください</span><span>／／</span>
+        <span>何でもしますから</span><span>／／</span>
+        <span>そうだよ（便乗）</span><span>／／</span>
+      </div>
+    </div>
+
+    <section class="section" id="profile">
+      <div class="section__head reveal">
+        <p class="eyebrow">01 / PROFILE</p>
+        <h2 class="section__title">記録された、基本情報。</h2>
+        <p class="section__lead">断片的な情報を整理したものです。諸説あります。</p>
+      </div>
+
+      <div class="profile">
+        <div class="portrait reveal">
+          <div class="portrait__frame">
+            <span class="portrait__glyph">獣</span>
+            <span class="portrait__scan" aria-hidden="true"></span>
+            <span class="portrait__label">IMAGE REDACTED</span>
+          </div>
+          <p class="portrait__caption">肖像：実在の人物の画像は使用していません。</p>
+        </div>
+
+        <div class="profile__body reveal">
+          <dl class="profile__list">
+            <div>
+              <dt>通称</dt>
+              <dd>野獣先輩</dd>
+            </div>
+            <div>
+              <dt>年齢</dt>
+              <dd>24歳</dd>
+            </div>
+            <div>
+              <dt>職業</dt>
+              <dd>学生</dd>
+            </div>
+            <div>
+              <dt>活動開始</dt>
+              <dd>2001年頃</dd>
+            </div>
+            <div>
+              <dt>属性</dt>
+              <dd>インターネットミーム</dd>
+            </div>
+            <div>
+              <dt>特技</dt>
+              <dd>迫真の演技</dd>
+            </div>
+            <div>
+              <dt>知名度</dt>
+              <dd>最大級</dd>
+            </div>
+            <div>
+              <dt>備考</dt>
+              <dd>諸説あり</dd>
+            </div>
+          </dl>
+
+          <div class="profile__stats">
+            <div class="stat">
+              <strong>24</strong>
+              <span>AGE</span>
+            </div>
+            <div class="stat">
+              <strong>114514</strong>
+              <span>KEYWORD</span>
+            </div>
+            <div class="stat">
+              <strong>∞</strong>
+              <span>QUOTES</span>
+            </div>
+          </div>
+
+          <p class="profile__note">
+            本アーカイブは、ネット上で共有されてきた引用・空耳・二次創作の文脈を紹介するものです。
+            個人の特定、誹謗中傷、差別的表現を目的とするものではありません。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="quotes">
+      <div class="section__head reveal">
+        <p class="eyebrow">02 / QUOTES</p>
+        <h2 class="section__title">名言集。</h2>
+        <p class="section__lead">クリックでコピーできます。使いどころは各自の判断で。</p>
+      </div>
+
+      <div class="quotes">
+        <article class="quote reveal">
+          <span class="quote__index">Q-01</span>
+          <p class="quote__text">いいよ、来いよ</p>
+          <div class="quote__foot">
+            <span class="quote__tag">知名度：最大</span>
+            <button class="copy" data-quote="いいよ、来いよ">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-02</span>
+          <p class="quote__text">やりますねぇ</p>
+          <div class="quote__foot">
+            <span class="quote__tag">称賛</span>
+            <button class="copy" data-quote="やりますねぇ">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-03</span>
+          <p class="quote__text">24歳、学生です</p>
+          <div class="quote__foot">
+            <span class="quote__tag">自己紹介</span>
+            <button class="copy" data-quote="24歳、学生です">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-04</span>
+          <p class="quote__text">すいません、許してください</p>
+          <div class="quote__foot">
+            <span class="quote__tag">謝罪</span>
+            <button class="copy" data-quote="すいません、許してください">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-05</span>
+          <p class="quote__text">何でもしますから</p>
+          <div class="quote__foot">
+            <span class="quote__tag">交渉</span>
+            <button class="copy" data-quote="何でもしますから">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-06</span>
+          <p class="quote__text">そうだよ（便乗）</p>
+          <div class="quote__foot">
+            <span class="quote__tag">同意</span>
+            <button class="copy" data-quote="そうだよ（便乗）">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-07</span>
+          <p class="quote__text">周りを見ろ</p>
+          <div class="quote__foot">
+            <span class="quote__tag">観察</span>
+            <button class="copy" data-quote="周りを見ろ">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-08</span>
+          <p class="quote__text">お前もな</p>
+          <div class="quote__foot">
+            <span class="quote__tag">反撃</span>
+            <button class="copy" data-quote="お前もな">コピー</button>
+          </div>
+        </article>
+
+        <article class="quote reveal">
+          <span class="quote__index">Q-09</span>
+          <p class="quote__text">うるさいですね…</p>
+          <div class="quote__foot">
+            <span class="quote__tag">静寂</span>
+            <button class="copy" data-quote="うるさいですね…">コピー</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="history">
+      <div class="section__head reveal">
+        <p class="eyebrow">03 / TIMELINE</p>
+        <h2 class="section__title">ミームの年表。</h2>
+        <p class="section__lead">諸説あるため、ざっくりとした流れだけを記録します。</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item reveal">
+          <span class="timeline__year">2001</span>
+          <div class="timeline__card">
+            <h3>伝説の一幕</h3>
+            <p>ある映像作品のワンシーンが記録される。この時点では、誰も後の広がりを知らない。</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">2007</span>
+          <div class="timeline__card">
+            <h3>再発見</h3>
+            <p>動画共有サイトの普及とともに、切り抜きや空耳が少しずつ拡散していく。</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">2010s</span>
+          <div class="timeline__card">
+            <h3>ミーム化</h3>
+            <p>AA、MAD、コラージュが大量発生。独自の語彙と文法を持つネットミームとして定着する。</p>
+          </div>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__year">2020s</span>
+          <div class="timeline__card">
+            <h3>アーカイブ</h3>
+            <p>引用され続ける古典的ミームに。記録する動きと、節度を求める声の両方が生まれる。</p>
+          </div>
+        </li>
+        <li class="timeline__item timeline__item--now reveal">
+          <span class="timeline__year">NOW</span>
+          <div class="timeline__card">
+            <h3>記録は続く</h3>
+            <p>このサイトもまた、誰かの記憶の断片を保存するための小さな箱にすぎない。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section section--alt" id="glossary">
+      <div class="section__head reveal">
+        <p class="eyebrow">04 / GLOSSARY</p>
+        <h2 class="section__title">用語集。</h2>
+        <p class="section__lead">ミーム周辺でよく使われる言葉を、短く整理しました。</p>
+      </div>
+
+      <div class="glossary">
+        <details class="term reveal">
+          <summary><span>114514</span><i>+</i></summary>
+          <p>語呂合わせの数字列。文脈を共有するための合言葉のように使われることがあります。</p>
+        </details>
+        <details class="term reveal">
+          <summary><span>迫真</span><i>+</i></summary>
+          <p>大げさに真剣味を演出するニュアンス。ミームの基本語彙のひとつです。</p>
+        </details>
+        <details class="term reveal">
+          <summary><span>本編</span><i>+</i></summary>
+          <p>元ネタの映像を指す呼称。引用の外側にある文脈を意識させる言葉です。</p>
+        </details>
+        <details class="term reveal">
+          <summary><span>空耳</span><i>+</i></summary>
+          <p>セリフを別の言葉に聞き取る遊び。音の一致が笑いを生みます。</p>
+        </details>
+        <details class="term reveal">
+          <summary><span>草</span><i>+</i></summary>
+          <p>笑いを表すネットスラング。日本語圏の掲示板文化から広がりました。</p>
+        </details>
+        <details class="term reveal">
+          <summary><span>（迫真）</span><i>+</i></summary>
+          <p>冗談めかして真面目ぶるときの注釈。文章の温度を一気に変える記号です。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" id="bbs">
+      <div class="section__head reveal">
+        <p class="eyebrow">05 / BBS</p>
+        <h2 class="section__title">電子掲示板（β）。</h2>
+        <p class="section__lead">訪問者の声を保存します。荒らし・個人情報・差別的投稿は禁止です。</p>
+      </div>
+
+      <div class="bbs">
+        <form class="bbs__form reveal" id="bbsForm">
+          <label class="field">
+            <span>名前</span>
+            <input type="text" id="bbsName" name="name" maxlength="24" placeholder="名無しの観測者" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>本文</span>
+            <textarea id="bbsText" name="text" rows="5" maxlength="240" placeholder="感想をどうぞ（240文字まで）" required></textarea>
+          </label>
+          <div class="bbs__form-foot">
+            <span class="bbs__count" id="bbsCount">0 / 240</span>
+            <button class="btn btn--lime" type="submit">書き込む</button>
+          </div>
+          <p class="bbs__note">投稿はこのブラウザ内にのみ保存されます。</p>
+        </form>
+
+        <div class="bbs__thread reveal">
+          <div class="bbs__thread-head">
+            <span>レス一覧</span>
+            <span class="bbs__thread-count" id="threadCount">0</span>
+          </div>
+          <div class="bbs__posts" id="bbsPosts" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="badges" aria-label="バッジ">
+      <span class="badge">24歳学生</span>
+      <span class="badge">YAJUU ARCHIVE</span>
+      <span class="badge badge--pink">迫真</span>
+      <span class="badge">BEST VIEWED 800×600</span>
+      <span class="badge">NO FRAMES</span>
+      <span class="badge badge--cyan">Y2K OK</span>
+      <span class="badge">LINK FREE</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__top">
+      <a class="logo logo--footer" href="#top">
+        <span class="logo__mark">獣</span>
+        <span class="logo__text">
+          <span class="logo__en">YAJUU ARCHIVE</span>
+          <span class="logo__jp">非公式ミーム資料館</span>
+        </span>
+      </a>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <a href="#profile">プロフィール</a>
+        <a href="#quotes">名言集</a>
+        <a href="#history">年表</a>
+        <a href="#glossary">用語集</a>
+        <a href="#bbs">掲示板</a>
+      </nav>
+    </div>
+
+    <div class="footer__disclaimer">
+      <p>
+        本サイトはインターネットミームを題材にした非公式のパロディサイトです。
+        特定の個人・団体とは一切関係なく、関連作品の権利を主張するものでもありません。
+      </p>
+      <p>
+        実在の人物の画像は使用していません。個人の特定、誹謗中傷、差別的表現を目的としません。
+        引用は文脈の紹介にとどめ、節度ある利用をお願いします。
+      </p>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> YAJUU ARCHIVE — unofficial parody.</p>
+      <p class="footer__mono">NO FRAMES / MADE FOR THE ARCHIVE</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
